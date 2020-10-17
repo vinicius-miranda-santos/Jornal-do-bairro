@@ -1,0 +1,224 @@
+body {
+        background-color: lightblue;
+        font-family: cursive;
+        margin: 50px;
+        height: 500px;
+        
+}
+
+#titulo {
+
+          text-align: center;
+          font-family: cursive;
+          box-sizing: content-box;
+          
+
+}
+
+
+#titulo2 {
+
+        text-align: center;
+          font-family: cursive;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          font-size: 25px;
+          color: black;
+          
+}
+
+
+
+
+
+.imagens{
+        width: 400px;
+        padding: 50px;
+        margin-left: 32px;
+        
+ 
+}
+
+
+
+
+header{
+        color: blanchedalmond;
+}
+
+
+
+
+
+
+
+nav ul{
+         list-style-type: none;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+
+}
+
+
+nav ul li{
+        
+            font-family: cursive;
+             font-size: 20px;
+             padding: 1em 1em;
+              background-color: blue
+              border: 1px solid black;
+             transition: all ease 0.5s 0s;
+             
+
+
+
+}
+
+
+
+
+nav ul li:hover{
+                 background-color: white;
+                color: red;
+                 cursor: pointer;
+                font-size: 25px;
+               transform: scale(1.5); 
+               
+
+}
+
+
+nav ul li:active{
+                    
+                  color: chocolate;
+
+}
+
+
+.links{
+             text-decoration: none;
+
+}
+
+
+
+#titulo {
+               animation-name: rodando;
+               animation-duration: 2s;
+               animation-timing-function: ease-in-out;
+               animation-iteration-count: infinite;
+               animation-direction: alternate-reverse;
+
+}
+
+
+#titulo:hover{
+        animation-play-state: paused;
+}
+
+
+
+@keyframes rodando {
+                     0%{
+                              color: yellow;
+                     }
+
+                     
+
+                     25%{
+                                color: gold
+                             
+                     }
+                       
+                   50%{
+                           color: red;
+                   }
+
+                 
+
+                   75%{
+
+                        color: blue
+                   }
+
+                  
+                    100%{
+                             color: green;
+                    }
+
+
+
+}
+
+
+.ufmg {
+           text-align: center;
+          
+}
+
+#video{
+        width: 550px;
+        margin:0 auto;
+        display: block;
+}
+
+
+#rodape {
+           background-color: green;
+        text-align: center;
+        margin-top: 122px;
+        margin-bottom: 22px;
+        margin-left: 355px;
+        margin-right: 355px;
+}
+
+
+
+.divs{
+        font-family: cursive;
+       position: relative; left: 500px; top: -200px;
+       
+}
+     
+
+
+#principal{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+           text-align: center;
+           margin-left: 27px;
+           color: purple;
+           font-size: 45px;
+           
+           
+
+}
+
+
+
+
+
+
+.moradia{
+            
+            margin-left: 30px;
+        background-color: bisque;
+         text-align: center;
+}
+
+
+
+
+.divs:link{
+                 color: indigo;
+
+}
+
+#divi {
+
+        position: relative; left: 500px; top: -300px;
+}
+
+
+
